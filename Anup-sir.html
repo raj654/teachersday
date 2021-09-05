@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <style type="text/css" media="all">
+      body{
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(115deg,#11eaff 10%,#9f01ea 90%);
+        background-attachment: fixed;
+      }
+      #header{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+      }
+      .heading{
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 75px;
+      }
+      .heading span{
+        display: table-cell;
+        padding: 0px;
+        font-family: 'Pacifico', cursive;
+        color: white;
+        ououtline: none;
+      }
+      #heading1,#heading2{
+        letter-spacing: 5px;
+        margin-left: 25%;
+        margin-top: -1%;
+        background: linear-gradient(115deg,#05eaff, #9b05ff, #ff05f4, #ff3400, #fff200);
+        animation: effect4 10s infinite alternate-reverse;
+        -webkit-background-clip:text;
+        background-size: 400%;
+      }
+      #heading1 span{
+        animation: effect3 1.8s linear infinite;
+      }
+      #heading2 span{
+        animation: effect3 1.5s linear infinite;
+      }
+      #heading1 span:nth-child(1){
+        animation-delay: 0.15s;
+      }
+      #heading1 span:nth-child(2){
+        animation-delay: 0.3s;
+      }
+      #heading1 span:nth-child(3){
+        animation-delay: 0.45s;
+      }
+      #heading1 span:nth-child(4){
+        animation-delay: 0.6s;
+      }
+      #heading1 span:nth-child(5){
+        animation-delay: 0.75s;
+      }
+      #heading1 span:nth-child(6){
+        animation-delay: 0.9s;
+      }
+      #heading1 span:nth-child(7){
+        animation-delay: 1.05s;
+      }
+      #heading1 span:nth-child(8){
+        animation-delay: 1.20s;
+      }
+      #heading1 span:nth-child(9){
+        animation-delay: 1.35s;
+      }
+      #heading1 span:nth-child(10){
+        animation-delay: 1.5s;
+      }
+      #heading1 span:nth-child(11){
+        animation-delay: 1.65s;
+      }
+      #heading1 span:nth-child(12){
+        animation-delay: 1.8s;
+      }
+      
+      #heading2 span:nth-child(1){
+        animation-delay: 0.15s;
+      }
+      #heading2 span:nth-child(11){
+        animation-delay: 0.15s;
+      }
+      #heading2 span:nth-child(2){
+        animation-delay: 0.3s;
+      }
+      #heading2 span:nth-child(3){
+        animation-delay: 0.45s;
+      }
+      #heading2 span:nth-child(4){
+        animation-delay: 0.6s;
+      }
+      #heading2 span:nth-child(5){
+        animation-delay: 0.75s;
+      }
+      #heading2 span:nth-child(6){
+        animation-delay: 0.9s;
+      }
+      #heading2 span:nth-child(7){
+        animation-delay: 1.05s;
+      }
+      #heading2 span:nth-child(8){
+        animation-delay: 1.20s;
+      }
+      #heading2 span:nth-child(9){
+        animation-delay: 1.35s;
+      }
+      #heading2 span:nth-child(10){
+        animation-delay: 1.5s;
+      }
+      @keyframes effect4{
+        0%{
+          background-position: -100%;
+        }
+        25%{
+          background-position: -200%;
+        }
+        50%{
+          background-position: -300%;
+        }
+        75%{
+          background-position: -400%;
+        }
+        100%{
+          background-position: -500%;
+        }
+      }
+      @keyframes effect3{
+        0%{
+          -webkit-text-fill-color:transparent;
+        }
+        100%{
+          -webkit-text-fill-color:transparent;
+        }
+      }
+      #heading2{
+        margin-top: 8%;
+        margin-left: 49%;
+      }
+      #first_box{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 1.550%;
+        margin-left: 2%;
+      }
+      #second_box{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: linear-gradient(#05eaff, #9b05ff, #ff05f4);
+        animation: effect1 1s linear infinite;
+      }
+      #box-image{
+        width: 90%;
+        position: absolute;
+        margin-top: -95%;
+        margin-left: 5%;
+        border-radius: 50%;
+      }
+      @keyframes effect1{
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+      #main-box{
+        position: absolute;
+        margin-top: 7%;
+        width: 95%;
+        height: 80%;
+        margin-left: 2.3%;
+        background-color: white;
+        border-radius: 75px;
+      }
+      #main-box img{
+        position: absolute;
+        width: 50%;
+        height: 40%;
+        left: 5%;
+        margin-top: 5%;
+        box-shadow: -8px 8px 10px grey, 5px -3px 10px grey;
+      }
+      #name-box{
+        position: absolute;
+        width: 40%;
+        height: 80px;
+        left: 7.6%;
+        top: 46.5%;
+        background-image: linear-gradient(115deg, #ff3400, #fff200);
+        transform: skew(-25deg);
+        box-shadow: 8px 8px 10px grey;
+      }
+      #name-box h1{
+        text-align: center;
+        font-size: 45px;
+        line-height: 17.5px;
+        color: white;
+      }
+      .wishes{
+        position: absolute;
+        left: 58%;
+        font-family: 'Charm', cursive;
+        animation: effect2 1.5s linear infinite;
+        color: transparent;
+      }
+      #wish-1{
+        top: 1%;
+        font-size: 70px;
+      }
+      #wish-2{
+        top: 7.5%;
+        left: 67%;
+        font-size: 80px;
+        animation-delay: 0.5s;
+      }
+      #wish-3{
+        top: 15%;
+        left: 85%;
+        font-size: 70px;
+        animation-delay: 1s;
+      }
+      @keyframes effect2{
+        0%{
+         color: #ffbd00;
+         text-shadow: 5px 0px 15px #ffbd00;
+        }
+        25%{
+          color: #00fffd;
+          text-shadow: 5px 0px 25px #00fffd;
+        }
+        50%{
+          color: #0034ff;
+          text-shadow: 5px 0px 25px #0034ff;
+        }
+        75%{
+          color: #a500ff;
+          text-shadow: 5px 0px 25px #a500ff;
+        }
+        100%{
+          color: #ff00b9;
+          text-shadow: 5px 0px 25px #ff00b9;
+        }
+      }
+      #message{
+        position: absolute;
+        width: 100%;
+        height: 43%;
+        top: 53%;
+        overflow: auto;
+      }
+      #video_box{
+        margin-left: 5%;
+        margin-top: 2%;
+      }
+      .important-messages{
+        width: 100%;
+        height: 75px;
+        text-align: center;
+        font-size: 45px;
+        line-height: 75px;
+        font-weight: bolder;
+        margin-top: 4%;
+        color: white;
+      }
+      #important-message-1{
+        background-color: red;
+      }
+      #important-message-2{
+        background-color: lime;
+      }
+      #important-message-3{
+        background-color: aqua;
+        color: #b000ff;
+      }
+      #main_heart{
+        position: absolute;
+        top: 33%;
+        left: 69.5%;
+        transform: rotate(45deg);
+      }
+      #heart{
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        position: relative;
+        box-shadow: 0px 5px 35px grey, 5px 0px 35px grey;
+        animation: hear-beat 2s linear infinite;
+      }
+      #heart::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -50%;
+        background-color: red;
+        border-radius: 50%;
+      }
+      #heart::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -50%;
+        background-color: red;
+        border-radius: 50%;
+      }
+      @keyframes hear-beat{
+        0%{
+          transform:scale(1);
+        }
+        20%{
+          transform:scale(1.2);
+        }
+        40%{
+          transform:scale(1.1);
+        }
+        60%{
+          transform:scale(1.4);
+        }
+        80%{
+          transform:scale(1.2);
+        }
+        100%{
+          transform:scale(1.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="first_box">
+        <div id="second_box"></div>
+          <img id="box-image" src="Developer.jpg" alt="" />
+      </div>
+      <h1 id="heading1" class="heading">
+        <span>w</span>
+        <span>e</span>
+        <span>b</span>
+        <span>&nbsp;d</span>
+        <span>e</span>
+        <span>v</span>
+        <span>e</span>
+        <span>l</span>
+        <span>o</span>
+        <span>p</span>
+        <span>e</span>
+        <span>r</span>
+      </h1>
+      <h1 id="heading2" class="heading">
+        <span>(</span>
+        <span>R</span>
+        <span>a</span>
+        <span>j</span>
+        <span>&nbsp;k</span>
+        <span>i</span>
+        <span>s</span>
+        <span>h</span>
+        <span>o</span>
+        <span>r</span>
+        <span>)</span>
+      </h1>
+    </div><br>
+    <div id="main-box">
+      <div id="image-box2">
+        <img src="Anup_sir.jpg" alt="" />
+      </div>
+      <h1 id="wish-1" class="wishes">
+        <span>Happy</span>
+      </h1>
+      <h1 id="wish-2" class="wishes">
+        <span>Teacher's</span>
+      </h1>
+      <h1 id="wish-3" class="wishes">
+        <span>Day</span>
+      </h1>
+      <div id="main_heart">
+        <div id="heart"></div>
+      </div>
+        <div id="name-box">
+          <h1 id="Teacher_name">Anup sir</h1>
+        </div>
+        <div id="message">
+         <h1 id="important-message-2" class="important-messages">Please do read it completely 🙏
+         </h1>
+         <p style="font-size:30px; text-align:center;">
+            जीवन में कभी हार न मानना<br> संघर्षों से कभी न भागना<br> मुसीबतों का करना डट कर सामना<br> हो कुछ भी सच्चाई के मार्ग पर<br> चलना, ये आप ही तो हमें सिखाते हैं<br> इसलिए शिक्षक कहलाते हैं<br><br>
+           दिया ज्ञान का भण्डार हमें<br>
+           किया भविष्य के लिए तैयार हमें<br>
+           हैं आभारी उन गुरुओं के हम<br>
+           जो किया कृतज्ञ अपार हमें<br>
+           मेरे जीवन में आने वाले हर एक
+           शिक्षक को शत-शत नमन
+         </p>
+          <h1 id="important-message-1" class="important-messages">
+            Please watch full video 🙏
+          </h1>
+         <div id="video_box">
+           <video src="Status_video.mp4" height="37%" width="95%" controls=""></video>
+         </div>
+         <h1 id="important-message-3" class="important-messages">Developer information
+         </h1>
+         <p style="font-size:20px; margin-left:30px;">
+           Developer name:- Raj Kishor<br>
+           class:- 11<sup>th</sup><br>
+           Mobile no.:- 9508517191<br>
+           whatsapp no.:- 9508517191
+         </p>
+        </div>
+    </div>
+  </body>
+</html>
